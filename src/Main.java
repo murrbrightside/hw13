@@ -2,6 +2,7 @@ public class Main {
     public static void leapYear(int y) {
         if(y%4 == 0 || y %100 ==0){
             System.out.println("Високосный год");
+
         }else {
             System.out.println("Невисокосный год");
 
